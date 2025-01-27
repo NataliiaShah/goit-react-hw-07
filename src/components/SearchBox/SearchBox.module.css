@@ -1,10 +1,8 @@
 .container {
     margin-bottom: 20px;
-    width: 270px;
-    position: relative;
 }
 
-.labelText {
+.inputText {
     font-size: 17px;
     line-height: 1.33;
     letter-spacing: -.01em;
@@ -12,7 +10,10 @@
     margin-bottom: 5px;
 }
 
-
+.container {
+    width: 270px;
+    position: relative;
+}
 
 .formInput {
     width: 270px;
@@ -23,12 +24,19 @@
     outline: transparent;
 
     transition: border-color .4s cubic-bezier(.4, 0, .2, 1), box-shadow .6s cubic-bezier(.4, 0, .2, 1);
-    padding: 10px 35px;
-
+    padding: 6px 15px;
+    padding-right: 35px;
 }
 
 .formInput:hover,
 .formInput:focus {
     border-color: #646864;
     box-shadow: 0 4px 4px #00000026;
+}
+
+.iconClean {
+    position: absolute;
+    top: 6px;
+    right: 10px;
+    cursor: pointer;
 }
